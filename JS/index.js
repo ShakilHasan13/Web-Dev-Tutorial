@@ -330,11 +330,64 @@ console.log(num1 % num2);*/
 // })
 
 //Filter method
-let arr = [2, 3, 4, 5];
+// let arr = [2, 3, 4, 5];
 
-let evenNum = arr.filter((number) => {
-    return number % 2 == 0;
-})
-console.log(evenNum);
+// let evenNum = arr.filter((number) => {
+//     return number % 2 == 0;
+// })
+// console.log(evenNum);
+
+//Reduce Method: It returns a single value
+
+// let arr = [1, 2, 3, 4];
+
+// const outPut = arr.reduce((prev, curr) => {
+//     return prev + curr;
+// });
+// console.log(outPut);
+
+//Conditional Operator:
+
+// let a = 5;
+// let b = 2;
+
+// a > b ? console.log("A is BIG") : console.log("B is BIG");
+
+// let arr = [5, 10, 1, 2, 5, 6, 8];
+
+// let outPut = arr.reduce((prev, curr) => {
+//     return prev > curr ? prev : curr;
+
+// })
+// console.log(outPut);
 
 
+// for(let i=1; i<5; i++){
+//     console.log("Bangladesh 2.0");
+// }
+
+//for of, for in 
+
+// let arr = [1, 2, 4, 5];
+
+// for (let a of arr) {
+//     console.log(a);
+// }
+
+//Numbers as string
+// let a = 1;
+// let b = "2";
+// let c = 3;
+// console.log("I am counting " + a);
+// //Template Literal: backtick ``
+// console.log(`I am counting ${a}`);
+
+// let number1 = 10;
+
+// console.log(number1 % 2);
+
+//= vs == vs ===
+
+let a = 10;
+let b = 10;
+let c = "10";
